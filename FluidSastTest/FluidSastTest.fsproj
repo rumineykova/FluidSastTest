@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AdderData.fs" />
+    <Compile Include="Adder.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FluidAnnotations">
+      <HintPath>..\..\FluidTypes\FluidAnnotations\bin\Debug\FluidAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Sast">
+      <HintPath>..\..\Sast\src\Sast\bin\Debug\Sast.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
