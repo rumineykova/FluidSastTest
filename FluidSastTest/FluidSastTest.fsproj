@@ -11,10 +11,10 @@
 
   <ItemGroup>
     <Reference Include="FluidAnnotations">
-      <HintPath>..\..\FluidTypes\FluidAnnotations\bin\Debug\FluidAnnotations.dll</HintPath>
+      <HintPath>..\..\..\FluidTypes\FluidAnnotations\bin\Debug\FluidAnnotations.dll</HintPath>
     </Reference>
     <Reference Include="Sast">
-      <HintPath>..\..\Sast\src\Sast\bin\Debug\Sast.dll</HintPath>
+      <HintPath>..\..\..\Errased\Sast\src\Sast\bin\Debug\Sast.dll</HintPath>
     </Reference>
   </ItemGroup>
 
